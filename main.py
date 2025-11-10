@@ -1,6 +1,17 @@
 import pandas as pd
 import numpy as np
 
+# show how many names per year
+def entries(df):
+    # empty DataFrame
+    df = pd.DataFrame()
+
+    # for iteration
+    yrs = np.arange(1880,2025).tolist()
+
+    for yr and yrs:
+
+        
 
 # mash the 145 files into one df
 def mash():
